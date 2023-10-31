@@ -7,11 +7,12 @@
 
 <script>
 export default {
-    data() {
-        return {
-            id : this.$route.params.id
-        }
-    },
+    props: ['id'],
+    // data() {
+    //     return {
+    //         id : this.$route.params.id //take the id from the url
+    //     }
+    // },
 }
 </script>
 
